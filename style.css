@@ -4,22 +4,22 @@ body {
 }
 
 section {
-    height: 700px;
+    /* height: 700px; */
     padding-bottom: 150px;
 }
 
 .top-section {
-    background-image: url("images/donation3.jpg");
+    background-image: url("images/2112.w015.n001.647B.p15.647.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.78;
+    /* opacity: 0.78; */
     margin-bottom: 100px;
 }
 
 .top-section div {
 
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #heading {
@@ -38,7 +38,7 @@ section {
 }
 
 .donating-section {
-    height: 500px;
+    height: 400px;
 }
 
 .donating-section div {
@@ -84,14 +84,66 @@ section {
 }
 
 .planing-container {
-    padding-top: 180px;
+    padding-top: 100px;
     display: flex;
     justify-content: space-evenly;
 }
-.planing-part{
+
+.planing-part {
     margin-inline: 80px;
     border: none;
     padding-top: 100px;
     background-color: antiquewhite;
     border-radius: 10px;
+}
+
+.bonus-section {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.bonus-section div h2 {
+    font-size: 40px;
+}
+
+.bonus-section div img {
+    height: 500px;
+    width: 500px;
+    padding-right: 80px;
+}
+.update-section{
+    text-align: center;
+}
+.update-box{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 50px;
+}
+.update-section div input{
+    background-color: rgba(128, 128, 128, 0.271);
+    width: 200px;
+    padding-left: 10px;
+}
+.update-section div button{
+    background-color: #FF5959;
+    width: 100px;
+    margin-left: -3px;
+}
+.update-section div{
+    background-color: #FFF4D6;
+    margin-top: 50px;
+    padding-block: 80px;
+    margin-inline: 200px;
+}
+.foter-section{
+    padding-bottom: 0px;
+}
+.foter-section div{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 150px;
 }
