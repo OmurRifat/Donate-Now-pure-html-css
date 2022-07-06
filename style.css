@@ -78,9 +78,20 @@ section {
     border: none;
     border-bottom: 1px solid rgba(128, 128, 128, 0.53);
 }
-.planing-section{
+
+.planing-section {
     text-align: center
 }
-.planing-section div{
-    
+
+.planing-container {
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.planing-part{
+    margin-inline: 80px;
+    border: none;
+    padding-top: 100px;
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
